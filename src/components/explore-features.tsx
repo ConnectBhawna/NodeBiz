@@ -1,66 +1,49 @@
-import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Github, Database, Shield, Code2 } from 'lucide-react'
+import { Card, CardContent } from "@/components/ui/card"
 
-const features = [
-  {
-    title: 'Seamless GitHub Deployment',
-    description: 'Deploy your dApps to the permaweb with a single click.',
-    icon: <Github className="h-8 w-8 mb-2 text-green-500" />,
-    items: ['One-click Deployment', 'Automatic Verification', 'Version Control']
-  },
-  {
-    title: 'Eternal Storage',
-    description: 'Your data is stored forever on the decentralized web.',
-    icon: <Database className="h-8 w-8 mb-2 text-green-500" />,
-    items: ['Decentralized Hosting', 'Immutable', 'Censorship-Resistant']
-  },
-  {
-    title: 'Automated CI/CD',
-    description: 'Streamline your development and deployment processes.',
-    icon: <Code2 className="h-8 w-8 mb-2 text-green-500" />,
-    items: ['Continuous Integration', 'Automated Testing', 'Instant Rollbacks']
-  },
-  {
-    title: 'Decentralized by Design',
-    description: 'Built on a truly decentralized network for maximum security.',
-    icon: <Shield className="h-8 w-8 mb-2 text-green-500" />,
-    items: ['No Single Point of Failure', 'Peer-to-Peer Architecture', 'Blockchain-Powered']
-  }
-]
-
-export function ExploreFeatures() {
+export default function Page() {
   return (
-    <section className="py-16 bg-black/20 ml-32 justify-center">
-      <div className="container px-4 md:px-6 ">
-        <h2 className="text-3xl font-bold text-center mb-12">Explore Our Features</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {features.map((feature, index) => (
-            <Card key={index} className="bg-gray-900 border-gray-800 ">
-              <CardHeader>
-                <CardTitle className="flex items-center space-x-2">
-                  {feature.icon}
-                  <span>{feature.title}</span>
-                </CardTitle>
-                <CardDescription>{feature.description}</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <ul className="list-disc list-inside space-y-1">
-                  {feature.items.map((item, itemIndex) => (
-                    <li key={itemIndex} className="text-sm text-gray-400">{item}</li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
-          ))}
+    <div className="h-[600px] bg-black p-6">
+      <div className="max-w-5xl mx-auto rounded-2xl bg-[#3B5C2D] p-8">
+        <h1 className="text-4xl font-bold text-white text-center mb-8">
+          Explore NodeBiz Ecosystem
+        </h1>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+          <Card className="bg-[#1A1A1A] border-0">
+            <CardContent className="p-6">
+              <h2 className="text-[#90FF66] text-xl font-semibold mb-4">
+                Custom Solutions
+              </h2>
+              <p className="text-white text-lg leading-relaxed">
+                Tailored products and platforms for AI + Web3 collaboration, custom chains, and AI infrastructure.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-[#1A1A1A] border-0">
+            <CardContent className="p-6">
+              <h2 className="text-[#90FF66] text-xl font-semibold mb-4">
+                SDKs for Developers
+              </h2>
+              <p className="text-white text-lg leading-relaxed">
+                Accelerate innovation with modular tools and seamless integration frameworks.
+              </p>
+            </CardContent>
+          </Card>
         </div>
-        <div className="text-center mt-12">
-          <Button className="bg-[#96EA63] hover:bg-green-600">
-            Learn More About Our Features
-          </Button>
-        </div>
+
+        <Card className="bg-[#1A1A1A] border-0">
+          <CardContent className="p-6">
+            <h2 className="text-[#90FF66] text-xl font-semibold mb-4">
+              Smart Contracts
+            </h2>
+            <p className="text-white text-lg leading-relaxed">
+              Automate governance, collaboration, and compensation across decentralized networks in Solidity and Rust.
+            </p>
+          </CardContent>
+        </Card>
       </div>
-    </section>
+    </div>
   )
 }
 
