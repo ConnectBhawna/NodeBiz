@@ -13,30 +13,18 @@ import { CoreLayers } from '@/components/core-layers'
 export default function Home() {
   return (
     <main className="relative">
-      <br />
-      <br />
+    <div className="space-y-12"> {/* or whatever spacing you prefer */}
       <NavBar />
       <HeroSection />
-      <br />
-      <br />
-      <br />
       <FeatureSection />
-      <br />
-      <br />
-      <br />
       <BuildersSection />
-      <br />
-      <br />
-      <br />
       <IndustrySection />
-      <br />
-      <br />
-      <br />
       <CoreLayers />
       <ExploreFeatures />
       <DemoSection />
       <ContactForm />
-    </main>
+    </div>
+  </main>
   )
 }
 
