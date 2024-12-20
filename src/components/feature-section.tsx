@@ -1,8 +1,9 @@
 export default function FeatureSection() {
   return (
     <div className="bg-black h-[400px] flex items-center justify-center p-4">
+      <div className="max-w-8xl mx-auto rounded-2xl bg-[#96EA63] p-8">
       <div className="max-w-4xl w-full">
-        <h1 className="text-[#86E768] text-4xl md:text-5xl font-bold text-center mb-8">
+        <h1 className="text-black text-4xl md:text-5xl font-bold text-center mb-8">
           Decentralized. Collaborative. Composable
         </h1>
         <div className="grid md:grid-cols-3 gap-4">
@@ -33,6 +34,7 @@ export default function FeatureSection() {
             </p>
           </div>
         </div>
+      </div>
       </div>
     </div>
   )

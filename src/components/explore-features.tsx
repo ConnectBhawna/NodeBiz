@@ -3,8 +3,8 @@ import { Card, CardContent } from "@/components/ui/card"
 export default function Page() {
   return (
     <div className="h-[600px] bg-black p-6">
-      <div className="max-w-5xl mx-auto rounded-2xl bg-[#3B5C2D] p-8">
-        <h1 className="text-4xl font-bold text-white text-center mb-8">
+      <div className="max-w-5xl mx-auto rounded-2xl bg-[#96EA63] p-8">
+        <h1 className="text-4xl font-bold text-black text-center mb-8">
           Explore NodeBiz Ecosystem
         </h1>
         
