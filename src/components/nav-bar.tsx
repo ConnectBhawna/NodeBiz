@@ -8,7 +8,7 @@ export function NavBar() {
       <div className="container flex h-16 items-center justify-between px-2">  {/* Reduced padding */}
         <div className="flex-1"></div>  {/* Added flex-1 to push logo and text to the right */}
         <Link href="/" className="flex items-center space-x-2">  {/* Removed ml-8 */}
-          <Image src="/app/logo.png" alt="NodeBiz Logo" width={32} height={32} />
+          <Image src="/favicon.ico" alt="NodeBiz Logo" width={32} height={32} />
           <span className="font-bold text-lg">NodeBiz</span>  {/* Increased font size */}
         </Link>
         <div className="flex-1"></div> <div className="flex items-center space-x-4">
