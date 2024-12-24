@@ -11,7 +11,7 @@ import { CoreLayers } from '@/components/core-layers'
 export default function Home() {
   return (
     <main className="relative">
-    <div className="space-y-12"> {/* or whatever spacing you prefer */}
+    <div className="space-y-14"> {/* or whatever spacing you prefer */}
       <NavBar />
       <HeroSection />
       <FeatureSection />

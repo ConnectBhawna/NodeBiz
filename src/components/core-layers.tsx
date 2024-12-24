@@ -1,6 +1,6 @@
 export function CoreLayers() {
   return (
-    <div className="bg-black min-h-screen text-white py-16 px-4">
+    <div className="bg-black min-h-screen text-white py-16 px-4" id="core_layer">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">Core Layers and Offerings</h2>
         
@@ -61,4 +61,5 @@ export function CoreLayers() {
     </div>
   )
 }
+export default CoreLayers;
 

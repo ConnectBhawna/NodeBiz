@@ -2,10 +2,10 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export default function Page() {
   return (
-    <div className="h-[600px] bg-black p-6">
+    <div className="h-[600px] bg-black p-6" id="ecosystem">
       <div className="max-w-5xl mx-auto rounded-2xl bg-[#96EA63] p-8">
         <h1 className="text-4xl font-bold text-black text-center mb-8">
-          Explore NodeBiz Ecosystem
+          Explore Euclid Labs Ecosystem
         </h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">

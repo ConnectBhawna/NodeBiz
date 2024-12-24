@@ -1,6 +1,6 @@
 export default function BuildersSection() {
   return (
-    <section className="w-full bg-black/95 px-4 py-12 md:py-16">
+    <section className="w-full bg-black/95 px-4 py-12 md:py-16" id="solution">
       <div className="mx-auto max-w-6xl">
         <h2 className="mb-12 text-center text-5xl font-bold text-[#7CFF6B]">
           For Builders Across Industries

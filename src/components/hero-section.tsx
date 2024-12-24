@@ -1,8 +1,10 @@
+import Link from 'next/link'; 
 import { Button } from '@/components/ui/button'
+import CoreLayers from './core-layers';
 
 export function HeroSection() {
   return (
-    <div className="container mx-auto px-4 py-16 flex flex-col items-center justify-center pt-24 pb-35">
+    <div className="container mx-auto px-4 py-16 flex flex-col items-center justify-center pt-24 pb-35" id="home">
       <h1 className="text-5xl md:text-8xl font-bold tracking-tighter mb-6 mt-24 text-center">
       AI + WEB3 INNOVATION
       </h1>
@@ -11,13 +13,19 @@ export function HeroSection() {
       you bring the vision.
       </p>
       <div className="flex justify-center gap-4">
-        <Button className=" bg-[#96EA63] hover:bg-green-600">
-        Explore Solution
-        </Button>
-        <Button variant="outline">
-          Get Started
-        </Button>
-      </div>
+          <a>
+            <Link href="#core_layer">
+              <Button className="bg-[#96EA63] hover:bg-green-600">
+              Explore Features
+              </Button>
+            </Link>
+          </a>
+          {/* Added Get Started button 
+          <Button variant="outline">
+            Get Started
+          </Button>
+          */}
+        </div>
     </div>
   )
 }

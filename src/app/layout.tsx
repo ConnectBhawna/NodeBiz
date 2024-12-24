@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'NodeBiz - Blockchain Node Management',
+  title: 'Euclid Labs - Blockchain Node Management',
   description: 'Effortless Blockchain Node Management with Unmatched Reliability',
 }
 

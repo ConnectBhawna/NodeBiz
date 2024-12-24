@@ -3,7 +3,7 @@ export default function IndustrySection() {
       <section className="w-full bg-black/95 px-4 py-12 md:py-16">
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-12 text-center text-5xl font-bold text-[#7CFF6B]">
-          More Industry Solutions
+          Industry Solutions
           </h2>
           
           <div className="grid gap-6 md:grid-cols-3">
